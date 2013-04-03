@@ -19,7 +19,7 @@ if ($exif) {
   $focal = $exif['FocalLength'];
   // ... more details about exif options with : var_dump($exif)
 } else {
-  echo 'exif unvailable';
+  echo 'exif unavailable';
 }
 
 ?>
