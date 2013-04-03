@@ -39,6 +39,7 @@ imagedestroy($img);
  * FORM.PHP
  * contain the form witch the captcha to valid
  */
+ 
 if (isset($_POST['checkcaptcha'])) {
   if ($_POST['captcha'] == $_SESSION['captcha']) {
     echo 'okay';
